@@ -52,9 +52,12 @@ MLX_FLAGS	=
 #If Linux
 else
 OS			= Linux
-INCLUDES	= -Iinclude -I/usr/include -Imlx_linux -Ilibft
+#INCLUDES	= -Iinclude -I/usr/include -Imlx_linux -Ilibft
+INCLUDES	= -Iinclude -Ilibft -Imlx_linux 
 
-MLX_LIB		= -Lmlx_linux -lmlx_Linux -L/usr/lib
+MLX			= ./mlx_linux
+#MLX_LIB	= -Lmlx_linux -lmlx_Linux -L/usr/lib
+MLX_LIB 	=  -I /usr/X11/include -g -L /usr/X11/lib -l minilibx-linux -framework OpenGL -framework AppKit
 MLX_FLAGS	= -Imlx_linux -lXext -lX11 -lm -lz
 endif
 
