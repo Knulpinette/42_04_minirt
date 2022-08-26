@@ -47,7 +47,7 @@ You'll need to learn about **primary rays**, **shadow rays** and **camera rays**
 * Get a pen and a paper. Draw. Visualise. It <i>helps</i>.
 * Start with the sphere (it's the easiest one). [This Shadertoy video tutorial](https://www.youtube.com/watch?v=HFPlKQGChpE) can help you understand and figure out the intersection equation logic so you can move on to the other shapes afterwards.
 * When in doubt, you can help yourself with this [simple MiniRT in Javascript](https://github.com/antirez/jsrt/blob/master/rt.html) that really helps.
-* If you ever get to make triangles work (they're not mandatory anymore), you can make or find a program that converts images to triangles and use that to generate your scenes. 
+* If you ever get to make triangles work (they're not mandatory anymore), you can make or find a program that converts images to triangles and use that to generate any scene you want. 
 
 ## MiniRT Logic 💡
 
