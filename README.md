@@ -29,6 +29,7 @@ When you haven't done maths for 10 years, diving into miniRT as a refresher proj
 You should know **what vectors are** and **how to calculate** with them (addition, subtraction, etc). Learn also about **unit length vectors** and **the magnitude** of a vector (pythagoras theorem). Then move on to **dot product** and **cross product** (you will use them a lot in miniRT).
 
 * A [class on linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+* You can also go visit the great lessons of [Khan Academy](https://fr.khanacademy.org/math/algebra-home/alg-vectors)
 
 ### Raytracing Essentials 💠
 
@@ -39,7 +40,7 @@ You'll need to learn about **primary rays**, **shadow rays** and **camera rays**
 * This scratchpixels [Mini Ray Rendering tutorial/class](https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/parametric-and-implicit-surfaces)
 * [Ray Tracing in One Week End](https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes) (and [the sequels](https://raytracing.github.io/) if you're somewhat suicidal). The first 6 chapters cover some really helpful stuff including a couple bonus assignments. <br>
 <i>**Warning**: be careful to only take what you should from it as it uses path tracing</i>. 
-* [A list of Notions](https://www.notion.so/MiniRT-71995aae3aac48d58aaf75be4c3e9193) from the project (in spanish 💃)
+* [A list of Notions](https://wary-neem-854.notion.site/MiniRT-71995aae3aac48d58aaf75be4c3e9193) from the project (in spanish 💃)
 
 ### A Few Tips 📌
 
