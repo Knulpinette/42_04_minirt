@@ -42,22 +42,27 @@ UNAME = ${shell uname}
 # If Mac
 ifeq ($(UNAME), Darwin)
 OS			= Apple
+MLX			= ./minilibx_mms
+
 INCLUDES	= -Ilibft -Iinclude -Iminilibx_mms
 #INCLUDES	= -Ilibft -Iinclude -Lmlx -lmlx -framework OpenGL -framework AppKit 
 
-MLX			= ./minilibx_mms
 MLX_LIB		= -Lminilibx_mms -lmlx
 MLX_FLAGS	= 
 
 #If Linux
 else
 OS			= Linux
-#INCLUDES	= -Iinclude -I/usr/include -Imlx_linux -Ilibft
-INCLUDES	= -Iinclude -Ilibft -Imlx_linux 
-
 MLX			= ./mlx_linux
-#MLX_LIB	= -Lmlx_linux -lmlx_Linux -L/usr/lib
-MLX_LIB 	=  -I /usr/X11/include -g -L /usr/X11/lib -l minilibx-linux -framework OpenGL -framework AppKit
+
+# If you've installed mlx linux locally use those 
+INCLUDES	= -Iinclude -I/usr/include -Imlx_linux -Ilibft
+MLX_LIB	= -Lmlx_linux -lmlx_Linux -L/usr/lib
+
+#If you don't have mlx linux installed
+#INCLUDES	= -Iinclude -Ilibft -Imlx_linux 
+#MLX_LIB 	=  -I /usr/X11/include -g -L /usr/X11/lib -l minilibx-linux -framework OpenGL -framework AppKit
+
 MLX_FLAGS	= -Imlx_linux -lXext -lX11 -lm -lz
 endif
 

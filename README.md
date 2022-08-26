@@ -12,6 +12,11 @@ It generates an image from a scene that can have multiples cameras, lights and s
 * run `make`
 * run `./minirt scenes/ANY_SCENE` (it might take a few seconds to generate the image)
 
+> #### Note <br>
+> Makefile should work on Linux and MacOS, but it has a different setup if the mlx is installed locally in linux. You can comment uncomment the appropriate INCLUDES and MLX_LIB lines in the Makefile depending on your situation. <br>
+> I did this project before the network switched to Linux so it works on my own linux on which I've installed the [mlx Linux](https://github.com/42Paris/minilibx-linux) following [these instructions](https://harm-smits.github.io/42docs/libs/minilibx/getting_started.html#compilation-on-linux). I think there is a way to use a new minilibX: hit me up if you have the links and want me to update it.
+
+
 ## The Starter Kit 🛠️
 
 When you haven't done maths for 10 years, diving into miniRT as a refresher project is brutal. It is however not impossible - and really cool to realise you would have loved maths if you had realised all the amazing things it could be used for when you were young.
@@ -22,7 +27,7 @@ When you haven't done maths for 10 years, diving into miniRT as a refresher proj
 
 ### Essential Links 🔗
 * If you didn't cover that already in the second ring: [the MiniLibX documentation](https://harm-smits.github.io/42docs/libs/minilibx)
-* [MLX Linux](https://github.com/42Paris/minilibx-linux)
+* [Codam's Mlx Linux](https://github.com/42Paris/minilibx-linux)
 * A list of [<maths.h> functions](https://yeosong1.github.io/math-h-%ED%95%A8%EC%88%98)
 
 ### Vectors 📐
