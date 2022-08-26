@@ -94,4 +94,4 @@ In the end, if you have time and want to learn more or want to work in animation
 * [Another MiniRT](https://github.com/nesvoboda/minirt) 
 * [Colorful MiniRT](https://github.com/solaldunckel/miniRT) 
 
-### Enjoy 🦕
+### Enjoyy 🦕
