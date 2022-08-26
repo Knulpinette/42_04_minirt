@@ -50,7 +50,9 @@ You'll need to learn about **primary rays**, **shadow rays** and **camera rays**
 
 ## MiniRT Logic 💡
 
-**You can go check the code for comments, they are pretty extensive.**
+> **You can go check the code for comments, they are pretty extensive.** <br>
+
+Here's a quick overview of the concept:
 
 #### 1. Generate the camera ray 〽️
 
