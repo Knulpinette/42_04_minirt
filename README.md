@@ -22,6 +22,7 @@ When you haven't done maths for 10 years, diving into miniRT as a refresher proj
 
 ### Essential Links 🔗
 * If you didn't cover that already in the second ring: [the MiniLibX documentation](https://harm-smits.github.io/42docs/libs/minilibx)
+* [MLX Linux](https://github.com/42Paris/minilibx-linux)
 * A list of [<maths.h> functions](https://yeosong1.github.io/math-h-%ED%95%A8%EC%88%98)
 
 ### Vectors 📐
