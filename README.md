@@ -30,6 +30,9 @@ When you haven't done maths for 10 years, diving into miniRT as a refresher proj
 * [Codam's Mlx Linux](https://github.com/42Paris/minilibx-linux)
 * A list of [<maths.h> functions](https://yeosong1.github.io/math-h-%ED%95%A8%EC%88%98)
 
+> #### Note <br>
+> If you're using WSL 2 on Windows, follow [this tutorial](https://medium.com/javarevisited/using-wsl-2-with-x-server-linux-on-windows-a372263533c3) to be able to install the X-server that will let you handle graphics.
+
 ### Vectors 📐
 
 You should know **what vectors are** and **how to calculate** with them (addition, subtraction, etc). Learn also about **unit length vectors** and **the magnitude** of a vector (pythagoras theorem). Then move on to **dot product** and **cross product** (you will use them a lot in miniRT).
