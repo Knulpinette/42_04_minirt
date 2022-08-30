@@ -14,7 +14,6 @@ It generates an image from a scene that can have multiples cameras, lights and s
 
 > #### Note <br>
 > Makefile should work on Linux and MacOS, but it has a different setup if the mlx is installed locally in linux. You can comment uncomment the appropriate INCLUDES and MLX_LIB lines in the Makefile depending on your situation. <br>
-> I did this project before the network switched to Linux so it works on my own linux on which I've installed the [mlx Linux](https://github.com/42Paris/minilibx-linux) following [these instructions](https://harm-smits.github.io/42docs/libs/minilibx/getting_started.html#compilation-on-linux). I think there is a way to use a new minilibX: hit me up if you have the links and want me to update it.
 
 
 ## The Starter Kit 🛠️
